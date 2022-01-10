@@ -28,6 +28,11 @@ function displayAuthor() {
   	setTimeout(displayAuthor, speed);
   }
 
-  if (j == alltext[2].length) { document.getElementsByClassName('initButtons')[0].style.visibility = "visible"; }
+  if (j == alltext[2].length) {
+  document.getElementsByClassName('initButtons')[0].style.visibility = "visible";
+  document.getElementsByClassName('initButtons')[1].style.visibility = "visible";
+}
 
 }
+
+function brigga() { location.replace = "http://www.w3schools.com"; }
