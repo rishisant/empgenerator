@@ -11,6 +11,9 @@ body { background-color: #181818; }
 .spacing {
   margin: 25px;
 }
+.spacing2 {
+  margin: 10px;
+}
 
 .initButtons {
   text-align: center;
@@ -21,7 +24,7 @@ body { background-color: #181818; }
   -moz-border-radius: 14px;
   background: #181818;
   color: #8dcd8a;
-  width: 5%;
+  width: 8%;
   font-size: 18px;
   visibility: hidden;
   margin: auto;
