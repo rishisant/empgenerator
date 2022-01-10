@@ -1,0 +1,34 @@
+body { background-color: #181818; }
+
+.title {
+  color: #8dcd8a;
+  font-family: Consolas, Serif;
+  font-size: 25px;
+  margin: 1px;
+  text-align: center;
+}
+
+.spacing {
+  margin: 25px;
+}
+
+.initButtons {
+  text-align: center;
+  border: 2.5px solid #D3D3D3;
+  font-family: Consolas;
+  font-weight: bold;
+  border-radius: 14px;
+  -moz-border-radius: 14px;
+  background: #181818;
+  color: #8dcd8a;
+  width: 5%;
+  font-size: 18px;
+  visibility: hidden;
+  margin: auto;
+}
+
+.initButtons:hover{
+  border: 3px #ffffff double;
+  background: #8dcd8a;
+  color: #181818;
+}
