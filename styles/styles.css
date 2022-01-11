@@ -8,11 +8,34 @@ body { background-color: #181818; }
   text-align: center;
 }
 
+#htp1 {
+  color: #8dcd8a;
+  font-family: Consolas, Serif;
+  font-size: 15px;
+  margin: 1px;
+  text-align: center;
+}
+
+#archdisp {
+  color: #8dcd8a;
+  font-family: Consolas, Serif;
+  font-size: 15px;
+  margin: 1px;
+  text-align: center;
+}
+
 .spacing {
   margin: 25px;
 }
+
+#spacing_arch {
+  margin: 0px;
+}
 .spacing2 {
   margin: 10px;
+}
+.spacing3 {
+  margin: 0px;
 }
 
 .initButtons {
@@ -31,6 +54,27 @@ body { background-color: #181818; }
 }
 
 .initButtons:hover{
+  border: 3px #ffffff double;
+  background: #8dcd8a;
+  color: #181818;
+}
+
+.archT {
+  text-align: center;
+  border: 2.5px solid #D3D3D3;
+  font-family: Consolas;
+  font-weight: bold;
+  border-radius: 14px;
+  -moz-border-radius: 14px;
+  background: #181818;
+  color: #8dcd8a;
+  width: 8%;
+  font-size: 18px;
+  margin: auto;
+  visibility: hidden;
+}
+
+.archT:hover {
   border: 3px #ffffff double;
   background: #8dcd8a;
   color: #181818;
