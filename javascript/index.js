@@ -10,30 +10,122 @@ var alltext = {
   5: "Archetype Selection",
   6: "The Scholar archetype is one that prioritizes advancement of society. Researching technologies and improving quality of life<br>tend to be a scholar's main concerns. Scholars have great battle IQ, which can make the difference in long fought battles and wars.<br>Scholarly rulers have access to the special technology <b>Bane of the Dark Ages</b> which improves technology research rates and life <br>expectancy; all in all, scholars are a jack of all trades and are revered for their sophistication.",
   7: "The Leader archetype is one that prioritizes the populus. Gaining more followers and increasing performance all-around<br>is the leader's forte. Leaders are able to gain more military easier, and in times of despair, can lift the mood of the populus<br>through inspiring them by his or her sheer will. Leader-like rulers have access to the ability <b>By Sheer Will</b>, which allows the army<br>to gain militia, which aids you in difficult wars. Leaders are able to make the difference in the tough times you need 'em.",
-  8: "The Conqueror archetype is one that prioritizes land control. Often victorious, conquerors have good battle sense and know when to take the right engagements.<br>Conquerors are able to turn the tables with smaller armies, and have insanely large battle IQ. Conquering rulers have access to the ability <b>The Last Stand</b><br>which enhances any given army, making the opposition weaker in relation to your troops; taking fights against larger groups is much easier with this ability.<br>Conquerors are revered for their quick-thinking and ability to lead, whilst being a middle ground between scholar and leader."
+  8: "The Conqueror archetype is one that prioritizes land control. Often victorious, conquerors have good battle sense and know when to take the right engagements.<br>Conquerors are able to turn the tables with smaller armies, and have insanely high battle IQ. Conquering rulers have access to the ability <b>The Last Stand</b><br>which enhances any given army, making the opposition weaker in relation to your troops; taking fights against larger groups is much easier with this ability.<br>Conquerors are revered for their quick-thinking and ability to lead, whilst being a middle ground between scholar and leader."
 };
 
 var title = "Empire Simulator";
 var author = "Created by Rishi Santhanam";
-var speed = 70;
+var speed = 65;
 
 // archetypes
 // Scholar
 function dScholar() {
   document.getElementById('archdisp').innerHTML = alltext[6];
+
+  // progress bar modification (adequate)
+  // 90 75 30 55 60 Scholar
+  document.getElementsByClassName('backer')[0].style.width = "90%";
+  document.getElementsByClassName('backer')[1].style.width = "75%";
+  document.getElementsByClassName('backer')[2].style.width = "30%";
+  document.getElementsByClassName('backer')[3].style.width = "55%";
+  document.getElementsByClassName('backer')[4].style.width = "60%";
+
+  // progress bar visibility
+  document.getElementsByClassName('fronter')[0].style.visibility = "visible";
+  document.getElementsByClassName('fronter')[1].style.visibility = "visible";
+  document.getElementsByClassName('fronter')[2].style.visibility = "visible";
+  document.getElementsByClassName('fronter')[3].style.visibility = "visible";
+  document.getElementsByClassName('fronter')[4].style.visibility = "visible";
+  document.getElementsByClassName('backer')[0].style.visibility = "visible";
+  document.getElementsByClassName('backer')[1].style.visibility = "visible";
+  document.getElementsByClassName('backer')[2].style.visibility = "visible";
+  document.getElementsByClassName('backer')[3].style.visibility = "visible";
+  document.getElementsByClassName('backer')[4].style.visibility = "visible";
+  document.getElementsByClassName('qTit')[0].style.visibility = "visible";
+  document.getElementsByClassName('qTit')[1].style.visibility = "visible";
+  document.getElementsByClassName('qTit')[2].style.visibility = "visible";
+  document.getElementsByClassName('qTit')[3].style.visibility = "visible";
+  document.getElementsByClassName('qTit')[4].style.visibility = "visible";
 }
 // leader
 function dLeader() {
   document.getElementById('archdisp').innerHTML = alltext[7];
+
+  // progress bar modification (adequate)
+  // 35 50 85 60 85 Leader
+  document.getElementsByClassName('backer')[0].style.width = "35%";
+  document.getElementsByClassName('backer')[1].style.width = "50%";
+  document.getElementsByClassName('backer')[2].style.width = "85%";
+  document.getElementsByClassName('backer')[3].style.width = "60%";
+  document.getElementsByClassName('backer')[4].style.width = "85%";
+
+  // progress bar visibility
+  document.getElementsByClassName('fronter')[0].style.visibility = "visible";
+  document.getElementsByClassName('fronter')[1].style.visibility = "visible";
+  document.getElementsByClassName('fronter')[2].style.visibility = "visible";
+  document.getElementsByClassName('fronter')[3].style.visibility = "visible";
+  document.getElementsByClassName('fronter')[4].style.visibility = "visible";
+  document.getElementsByClassName('backer')[0].style.visibility = "visible";
+  document.getElementsByClassName('backer')[1].style.visibility = "visible";
+  document.getElementsByClassName('backer')[2].style.visibility = "visible";
+  document.getElementsByClassName('backer')[3].style.visibility = "visible";
+  document.getElementsByClassName('backer')[4].style.visibility = "visible";
+  document.getElementsByClassName('qTit')[0].style.visibility = "visible";
+  document.getElementsByClassName('qTit')[1].style.visibility = "visible";
+  document.getElementsByClassName('qTit')[2].style.visibility = "visible";
+  document.getElementsByClassName('qTit')[3].style.visibility = "visible";
+  document.getElementsByClassName('qTit')[4].style.visibility = "visible";
 }
 // Conqueror
 function dConqueror() {
   document.getElementById('archdisp').innerHTML = alltext[8];
+
+  // progress bar modification (adequate)
+  // 40 85 65 60 70 Conqueror
+  document.getElementsByClassName('backer')[0].style.width = "40%";
+  document.getElementsByClassName('backer')[1].style.width = "85%";
+  document.getElementsByClassName('backer')[2].style.width = "65%";
+  document.getElementsByClassName('backer')[3].style.width = "60%";
+  document.getElementsByClassName('backer')[4].style.width = "70%";
+
+  // progress bar visibility
+  document.getElementsByClassName('fronter')[0].style.visibility = "visible";
+  document.getElementsByClassName('fronter')[1].style.visibility = "visible";
+  document.getElementsByClassName('fronter')[2].style.visibility = "visible";
+  document.getElementsByClassName('fronter')[3].style.visibility = "visible";
+  document.getElementsByClassName('fronter')[4].style.visibility = "visible";
+  document.getElementsByClassName('backer')[0].style.visibility = "visible";
+  document.getElementsByClassName('backer')[1].style.visibility = "visible";
+  document.getElementsByClassName('backer')[2].style.visibility = "visible";
+  document.getElementsByClassName('backer')[3].style.visibility = "visible";
+  document.getElementsByClassName('backer')[4].style.visibility = "visible";
+  document.getElementsByClassName('qTit')[0].style.visibility = "visible";
+  document.getElementsByClassName('qTit')[1].style.visibility = "visible";
+  document.getElementsByClassName('qTit')[2].style.visibility = "visible";
+  document.getElementsByClassName('qTit')[3].style.visibility = "visible";
+  document.getElementsByClassName('qTit')[4].style.visibility = "visible";
 }
 
 // mousleave
 function dLeave() {
   document.getElementById('archdisp').innerHTML = alltext[0];
+
+  // progress bar visibility
+  document.getElementsByClassName('fronter')[0].style.visibility = "hidden";
+  document.getElementsByClassName('fronter')[1].style.visibility = "hidden";
+  document.getElementsByClassName('fronter')[2].style.visibility = "hidden";
+  document.getElementsByClassName('fronter')[3].style.visibility = "hidden";
+  document.getElementsByClassName('fronter')[4].style.visibility = "hidden";
+  document.getElementsByClassName('backer')[0].style.visibility = "hidden";
+  document.getElementsByClassName('backer')[1].style.visibility = "hidden";
+  document.getElementsByClassName('backer')[2].style.visibility = "hidden";
+  document.getElementsByClassName('backer')[3].style.visibility = "hidden";
+  document.getElementsByClassName('backer')[4].style.visibility = "hidden";
+  document.getElementsByClassName('qTit')[0].style.visibility = "hidden";
+  document.getElementsByClassName('qTit')[1].style.visibility = "hidden";
+  document.getElementsByClassName('qTit')[2].style.visibility = "hidden";
+  document.getElementsByClassName('qTit')[3].style.visibility = "hidden";
+  document.getElementsByClassName('qTit')[4].style.visibility = "hidden";
 }
 
 // start game, choosing an archetype
@@ -43,7 +135,7 @@ function startGame() {
   document.getElementsByClassName('initButtons')[0].style.visibility = "hidden";
   document.getElementsByClassName('initButtons')[1].style.visibility = "hidden";
   // using htp1 to talk about archetypes
-  document.getElementById('htp1').style.marginTop = "50px";
+  document.getElementById('htp1').style.marginTop = "0px";
   document.getElementById('htp1').innerHTML = "";
 
   // now use l to iterate
@@ -59,7 +151,7 @@ function archTitle() {
   if (l < alltext[5].length) {
     document.getElementsByClassName('title')[0].innerHTML += alltext[5].charAt(l);
     l++;
-    setTimeout(archTitle, speed - 10)
+    setTimeout(archTitle, speed + 12);
   }
 
   if (l == alltext[5].length) {
@@ -74,7 +166,14 @@ function archTitle() {
     document.getElementsByClassName('spacing3')[2].style.margin = "10px";
     document.getElementsByClassName('archT')[2].innerHTML = "Conqueror";
     document.getElementsByClassName('archT')[2].style.visibility = "visible";
-    document.getElementById('archdisp').style.marginTop = "45px";
+    document.getElementsByClassName('spacing2')[0].style.margin = "0px";
+    document.getElementsByClassName('spacing')[0].style.margin = "0px";
+    document.getElementById('archdisp').style.marginTop = "25px";
+    document.getElementsByClassName('spacing3')[3].style.margin = "3.5px";
+    document.getElementsByClassName('spacing3')[4].style.margin = "3.5px";
+    document.getElementsByClassName('spacing3')[5].style.margin = "3.5px";
+    document.getElementsByClassName('spacing3')[6].style.margin = "3.5px";
+
   }
 }
 
@@ -94,7 +193,7 @@ function htp2() {
   if (k < alltext[3].length) {
     document.getElementsByClassName('title')[0].innerHTML += alltext[3].charAt(k);
     k++;
-    setTimeout(htp2, speed - 10);
+    setTimeout(htp2, speed);
   }
 
   if (k == alltext[3].length) {
