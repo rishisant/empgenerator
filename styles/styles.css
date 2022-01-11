@@ -79,3 +79,34 @@ body { background-color: #181818; }
   background: #8dcd8a;
   color: #181818;
 }
+
+.qTit {
+  display:inline-block;
+  color: #d77234;
+  font-family: Consolas, Serif;
+  font-size: 18px;
+  margin: 1px;
+  margin-left: 3px;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.fronter {
+  height: 15px;
+  width: 205px;
+  display: inline-block;
+  background: #B2B2B2;
+
+  border-radius: 22px;
+  margin-left: 43.7%;
+  visibility: hidden;
+}
+
+.backer {
+  height: 15px;
+  width: 15%;
+  visibility: hidden;
+  background: #d77234;
+  display: inline-block;
+  border-radius: 22px;
+}
